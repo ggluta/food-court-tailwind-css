@@ -1,0 +1,27 @@
+{
+  "name": "food-court-tailwind-css",
+  "version": "1.0.0",
+  "description": "Learning tailwind in a fun way!",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggluta/food-court-tailwind-css.git"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "George Gabriel Luta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggluta/food-court-tailwind-css/issues"
+  },
+  "homepage": "https://github.com/ggluta/food-court-tailwind-css#readme",
+  "dependencies": {
+    "globally": "^0.0.0",
+    "live-server": "^1.2.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
